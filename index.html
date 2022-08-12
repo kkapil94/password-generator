@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="pass">
+        <div class="passco passc" >
+            <div id="pwd"></div>
+            <div class="cop"><button>copy</button></div>
+        </div>
+        <div class="passc" id="passl">
+            <label for="len">password length</label>
+            <input type="number" id="len" min="4" max="40">
+        </div>
+        <div class="passc" id="passu">
+            <label for="up">upper case</label>
+            <input type="checkbox" name="" id="up">
+        </div>
+        <div class="passc" id="passlo">
+            <label for="lo">lower case</label>
+            <input type="checkbox" name="" id="lo">
+        </div>
+        <div class="passc" id="passs">
+            <label for="sy">special symbol</label>
+            <input type="checkbox" name="" id="sy">
+        </div>
+        <div class="passc" id="numb">
+            <label for="num">contains number</label>
+            <input type="checkbox" id="num">
+        </div>
+        <button class="sub">Generate</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 

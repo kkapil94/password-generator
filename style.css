@@ -1,0 +1,54 @@
+body{
+ background-color:cadetblue;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+.pass{
+ background-color: rgb(13, 89, 119);
+ min-height: 11rem;
+ width: 20rem;
+ display: flex;
+ flex-direction: column;
+ font-size: 1rem;
+}
+.sub{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: orange;
+    margin-top: 3rem;
+    cursor: pointer;
+} 
+.passc{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+.cop{
+    position: absolute;
+    top: 88px;
+    transition: opacity .2s ease;
+    opacity: 0;
+}
+.passco{
+    background-color: aqua;
+    min-height: 2rem;
+    display: flex;
+    justify-content: center;
+    margin:.5rem;
+    overflow: auto;
+    height: auto;
+}
+.passco:hover .cop{
+    opacity: 1;
+}
+.cop{
+    position: absolute;
+    left:49rem;
+    top:12.3rem;
+}
+#pwd{
+    font-size: larger;
+}
